@@ -23,7 +23,7 @@ public class PersistentMap extends Map {
      */
     private final Path pathToLocalDir;
 
-    private ObjectMapper objectMapper = new ObjectMapper();
+    private final ObjectMapper objectMapper = new ObjectMapper();
 
     public PersistentMap(int capacity, Path pathToLocalDir) {
         super(capacity);
