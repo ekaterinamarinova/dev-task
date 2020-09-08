@@ -41,7 +41,6 @@ public class PersistentMap extends Map {
      *
      * @param key - given key
      * @param value - given value object
-     * @return - {@link Path} to the file with the data in it
      * @throws IOException - if invalid path, if you don't have access to a
      * given directory, etc.
      */
